@@ -26,7 +26,7 @@ Some of the methods require multiple values in the plist file. For instance, `-[
 
 Though we haven’t used this capability in Vesper, we made it so that you can have multiple themes. Every theme inherits from the Default theme.
 
-If you ask for a value from a theme other than Default, and that value is not specified in that theme, it falls back to Default to get that value.
+If the value asked is not specified in theme then it will select default value.
 
 ### Demo app
 
